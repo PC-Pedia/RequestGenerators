@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>RequestGenerators</id>
+    <version>$version$</version>
+    <title>RequestGenerators</title>
+    <authors>Eric Newton</authors>
+    <owners>Eric Newton</owners>
+    <licenseUrl>https://raw.githubusercontent.com/ericnewton76/RequestGenerators/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/ericnewton76/RequestGenerators/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A C# library for reading WebRequest or HttpWebRequest instances and creating commandline curl, powershell, or fetch, jQuery ajax etc.</description>
+    <copyright>Copyright 2018</copyright>
+    <tags>curl fetch jQuery ajax powershell</tags>
+  </metadata>
+</package>
