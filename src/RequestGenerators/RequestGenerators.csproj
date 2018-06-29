@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/ericnewton76/RequestGenerators/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/ericnewton76/RequestGenerators/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ericnewton76/RequestGenerators/</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
 </Project>
