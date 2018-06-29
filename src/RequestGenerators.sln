@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestGenerators", "RequestGenerators\RequestGenerators.csproj", "{66449299-3247-4CE9-B14B-5DBE92180EFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RequestGenerators", "RequestGenerators\RequestGenerators.csproj", "{66449299-3247-4CE9-B14B-5DBE92180EFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestGenerators_Tests", "RequestGenerators_Tests\RequestGenerators_Tests.csproj", "{8EDF4429-251A-416D-BB68-93F227191BCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FBC094C4-5F4E-4290-A525-0B5460D738DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{66449299-3247-4CE9-B14B-5DBE92180EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66449299-3247-4CE9-B14B-5DBE92180EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66449299-3247-4CE9-B14B-5DBE92180EFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8EDF4429-251A-416D-BB68-93F227191BCF} = {FBC094C4-5F4E-4290-A525-0B5460D738DF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C9E08FE-D0D4-41D9-9DC9-07445FD47F6D}
